@@ -1,0 +1,4 @@
+tensorflow
+Flask~=1.0
+transformers
+tensorflow_hub

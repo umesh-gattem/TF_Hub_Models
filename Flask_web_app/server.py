@@ -11,7 +11,7 @@ def index():
 
 def response_page(questions, answers):
     import os
-    current_directory = os.getcwd() + "/Flask_web_app"
+    current_directory = os.getcwd()
     document_path = current_directory + "/response_page.txt"
     result = ""
     for question, answer in zip(questions, answers):
